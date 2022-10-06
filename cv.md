@@ -5,14 +5,27 @@
 
 #### Osmonalieva Karina
 
-Contacts
+ Bishkek, Kyrgyzstan 
+
+- **Gmail**: coraline7645@gmail.com
+- **Telegram**: [@krekrekerok](https://t.me/krekrekerok)
+- **LinkedIn**: [Karina Osmonalieva](https://www.linkedin.com/in/karina-osmonalieva-978b011a7/)
+
+
 ## About me 
 Software Engineer with over a year experience with strong theoretical background in programming and also skilled at organizing and holding of events, meetings and lectures as well
 
 ***
 
-## Skills
-> My skills
+## Skils
+> * HTML & CSS
+> * Javascript
+> * React
+> * Chakra/Material UI
+> * GIT
+> * Firebase
+> * SQL
+> * Python
 
 ## Experience
   
@@ -28,6 +41,14 @@ Software Engineer with over a year experience with strong theoretical background
 - Mentored students in avarage amount of 20 
 - Checked home tasks and organized class work
 - Member of platform tested and uptaded team
+> **Inner Project**
+> FindU - a user-freindly web-site that helps students find the most suitable university in Bishkek. 
+> * Developed a full srtucture of responsive web app
+> * Implemented React and Firebase to allow users interact twith app in a best way
+> * Worked on functionality
+> * Utilized Firebase to store database
+> * Built design with a Chakra UI
+> * [Project link](https://ind-project-a1t4ss8b6-krekrekerok.vercel.app/)
 
 ## Education
 **International Ala-Too University**
@@ -39,6 +60,15 @@ Software Engineer with over a year experience with strong theoretical background
 ***
 
 ## Languages 
-- **English**
-- **Kyrgyz** 
-- **Turkish**
+- **English** - Upper-Intermediate
+  - Started to learn at age of 9
+  - Winner of olimpiads 
+  - Completed courses 
+  - Studied in English till the graduation
+- **Kyrgyz** - Upper-Intermediate
+  - Language is a part of a culture 
+  - Completed courses 
+  - Practice with native speakers
+- **Turkish** - Intermediate
+  - Completed courses 
+  - Practice with native speakers
