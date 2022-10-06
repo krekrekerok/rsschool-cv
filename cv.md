@@ -1,9 +1,8 @@
 
 # Junior Developer Resume
 
-***
 
-#### Osmonalieva Karina
+### Osmonalieva Karina
 
  Bishkek, Kyrgyzstan 
 
@@ -15,7 +14,6 @@
 ## About me 
 Software Engineer with over a year experience with strong theoretical background in programming and also skilled at organizing and holding of events, meetings and lectures as well
 
-***
 
 ## Skils
 > * HTML & CSS
@@ -57,7 +55,6 @@ Software Engineer with over a year experience with strong theoretical background
 - Dean's list *#1* and Scolarship winner
   For the highest GPA in department
 
-***
 
 ## Languages 
 - **English** - Upper-Intermediate
