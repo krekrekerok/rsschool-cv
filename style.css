@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+html { scroll-behavior: smooth;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    /* transition: 0.8s all ease-in-out; */
+}
+body{
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+hr {
+    border-top: 1px solid #000;
+  }
+
+.container{
+    margin: 5%;
+    padding: 3% 3% 0;
+    background-color:white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+nav{
+    padding: 2%;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav_menu-item{
+    /* background-color: aquamarine; */
+    width: 15%;
+    text-align: center;
+}
+
+.nav_menu-item:hover{
+    transition: 0.3s linear;
+    background-color: black;
+}
+
+.nav_menu-link{
+    color: black;
+}
+
+.nav_menu-link:hover{
+    color: white;
+}
+
+
+header{
+    margin: 5% 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_left-part{
+    width: 60%;
+}
+
+.hero-name{
+    font-size: 60px;
+}
+
+.section_name{
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.hero-summary{
+    line-height: 1.5;
+}
+
+.hero-photo {
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid rgb(230, 227, 227);
+    box-shadow: rgba(58, 58, 58, 0.2) 0px 8px 24px;
+}
+
+
+main{
+    margin: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-part{
+    width: 65%;
+}
+
+.right-part{
+    width: 30%;
+}
+
+/* -------   Experience   ------- */
+.work_place-position, .education_info, .code_text{
+    padding-left: 10%;
+    margin-top: 2%;
+}
+
+.responsibilities, .achievements{
+    list-style-type: disclosure-closed;
+    padding: 1% 10%;
+}
+.resp-item, .ach-item{
+    line-height: 1.5;
+}
+
+.code_text{
+    background-color: rgb(39, 39, 38);
+    width: 60%;
+    margin-left: 10%;
+    color: rgb(28, 156, 156);
+}
+
+
+.right-part h2{
+    text-align: center;
+}
+
+.right-part section{
+    padding-top: 15%;
+}
+
+.list-item{
+    line-height: 2;
+}
+
+footer{
+    padding: 2%;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-item img{
+    width: 100px;
+}
