@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif
+    font-family: 'Lato', sans-serif;
+    /* transition: 0.8s all ease-in-out; */
 }
 body{
     background-color: rgb(243, 243, 243);
@@ -17,18 +18,12 @@ ul{
 
 a{
     text-decoration: none;
-    color: black;
 }
 
-img {
-    border-radius: 50%;
-    border: 1px solid rgb(230, 227, 227);
-    box-shadow: rgba(58, 58, 58, 0.2) 0px 8px 24px;
-  }
 
 .container{
     margin: 5%;
-    padding: 5%;
+    padding: 3%;
     background-color:white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -36,39 +31,91 @@ img {
 .nav_menu{
     display: flex;
     justify-content: space-between;
-    font-size: large;
+    font-size: 25px;
     font-weight: 600;
 }
 
+.nav_menu-item{
+    /* background-color: aquamarine; */
+    width: 15%;
+    text-align: center;
+}
+
 .nav_menu-item:hover{
-    padding: 15% 0;
-    transition: 0.2s linear;
+    transition: 0.3s linear;
     background-color: black;
+}
+
+.nav_menu-link{
+    color: black;
+}
+
+.nav_menu-link:hover{
     color: white;
 }
 
-main{
-    margin: 5% 0;
-}
 
-.hero{
+header{
+    margin: 5% 10% 0;
     display: flex;
     justify-content: space-between;
 }
 
 .hero_left-part{
-    width: 70%;
+    width: 55%;
 }
 
 .hero-name{
-    font-size: 35px;
+    font-size: 60px;
 }
 
-.hero-position{
-    font-size: 20px;
+.section_name{
+    font-size: 35px;
     margin: 20px 0;
 }
 
 .hero-summary{
     line-height: 1.5;
+}
+
+.hero-photo {
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid rgb(230, 227, 227);
+    box-shadow: rgba(58, 58, 58, 0.2) 0px 8px 24px;
+}
+
+
+main{
+    margin: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-part{
+    width: 70%;
+}
+
+.right-part{
+    width: 25%;
+}
+
+/* -------   Experience   ------- */
+.work_place-position{
+    padding-left: 10%;
+    margin-top: 2%;
+}
+
+.responsibilities{
+    list-style-type: disclosure-closed;
+    padding: 1% 10%;
+}
+.resp-item{
+    line-height: 1.5;
+}
+
+/* skills */
+
+.skills_list{
+    
 }
