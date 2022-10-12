@@ -19,13 +19,19 @@ ul{
 a{
     text-decoration: none;
 }
-
+hr {
+    border-top: 1px solid #000;
+  }
 
 .container{
     margin: 5%;
-    padding: 3%;
+    padding: 3% 3% 0;
     background-color:white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+nav{
+    padding: 2%;
 }
 
 .nav_menu{
@@ -56,7 +62,7 @@ a{
 
 
 header{
-    margin: 5% 10% 0;
+    margin: 5% 5% 0;
     display: flex;
     justify-content: space-between;
 }
@@ -87,35 +93,62 @@ header{
 
 
 main{
-    margin: 2% 10%;
+    margin: 2% 5%;
     display: flex;
     justify-content: space-between;
 }
 
 .left-part{
-    width: 70%;
+    width: 65%;
 }
 
 .right-part{
-    width: 25%;
+    width: 30%;
 }
 
 /* -------   Experience   ------- */
-.work_place-position{
+.work_place-position, .education_info, .code_text{
     padding-left: 10%;
     margin-top: 2%;
 }
 
-.responsibilities{
+.responsibilities, .achievements{
     list-style-type: disclosure-closed;
     padding: 1% 10%;
 }
-.resp-item{
+.resp-item, .ach-item{
     line-height: 1.5;
 }
 
-/* skills */
+.code_text{
+    background-color: rgb(39, 39, 38);
+    width: 60%;
+    margin-left: 10%;
+    color: rgb(28, 156, 156);
+}
 
-.skills_list{
-    
+
+.right-part h2{
+    text-align: center;
+}
+
+.right-part section{
+    padding-top: 15%;
+}
+
+.list-item{
+    line-height: 2;
+}
+
+footer{
+    padding: 2%;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-item img{
+    width: 100px;
 }
